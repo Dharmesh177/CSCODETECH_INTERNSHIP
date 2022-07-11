@@ -1,0 +1,39 @@
+/* @font-face {
+  font-family: "Open Sans";
+  src: url("./fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+    url("./fonts/OpenSans-Regular-webfont.woff") format("woff");
+  font-weight: bold;
+  font-display: swap;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Open Sans";
+  font-weight: 400;
+} */
+
+@import "bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+  margin:0;
+
+  padding:0;
+ font-family: 'Poppins', sans-serif;;
+}
+
+
+.fade-in {
+  transition: opacity 1s ease-in;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel .thumb{
+
+  margin: auto;
+  width: 100%;
+}

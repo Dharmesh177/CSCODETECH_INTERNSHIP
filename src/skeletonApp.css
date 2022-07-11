@@ -1,0 +1,30 @@
+.ske{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin:40px;
+    padding: 10px;
+}
+
+.imgg{
+    position: absolute;
+    top: 157px;
+    left:860px;
+}
+
+.fiveLine{
+    position: absolute;
+    top: 425px;
+}
+
+.threeLine{
+    position: absolute;
+    top: 176px;
+}
+
+
+.ccc{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
